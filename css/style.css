@@ -1,0 +1,31 @@
+#welcome-section {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    background: rgb(130, 231, 238);
+    height: 125vh;
+    text-rendering: auto;
+}
+
+body {
+    background-color: burlywood;
+}
+
+#navbar {
+    position: fixed;
+    width: 50%;
+    color: blueviolet;
+}
+
+#navbar ul {
+    list-style: none;
+    height: 2em;
+    margin: 0;
+    float: right;
+    color: brown;
+}
+
+#navbar li {
+    display: inline-block;
+    padding: 0.5em;
+}
