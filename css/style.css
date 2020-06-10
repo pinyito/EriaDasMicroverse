@@ -15,6 +15,7 @@ body {
     position: fixed;
     width: 50%;
     color: blueviolet;
+    display: flex-end;
 }
 
 #navbar ul {
@@ -28,4 +29,24 @@ body {
 #navbar li {
     display: inline-block;
     padding: 0.5em;
+}
+
+.project img {
+    max-height: 200px;
+    width: auto;
+}
+
+footer {
+    background-color: rgb(209, 69, 134);
+    margin: 2px;
+    text-align: center;
+    align-items: flex-start;
+}
+
+@media(max-width:600px) {
+    #navbar #navbar ul #navbar li #welcome_section #projects_section .project .project img {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
 }
